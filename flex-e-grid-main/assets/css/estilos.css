@@ -303,6 +303,11 @@ body {
     font-size: 24px;
 }
 
+.cartao__botao--picos::before{
+    content: "\e908";
+}
+
+
 .cartao__botao--compra-arte{
     width: 100%;
     grid-column: span 2;
@@ -312,6 +317,8 @@ body {
     width: 100%;
     grid-column: span 2;
 }
+
+
 
 .cartao__botao--destaque::before {
     margin-right: 8px;
